@@ -1,0 +1,13 @@
+[package]
+name = "diesel-bench"
+version = "0.1.0"
+authors = ["Florian Reisecker <florian.reisecker@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1", features = ["postgres"] }
+rand = "0.5"
+rayon = "1"
+actix-web = "0.7"
+serde_derive = "1"
+serde = "1"
